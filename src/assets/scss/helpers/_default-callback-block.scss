@@ -1,0 +1,13 @@
+.default-callback-block {
+    $self: &;
+    &__tel-number {
+        font-weight: normal;
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+        color: $title-text-color;
+        margin-right: 40px;
+    }
+    &__button {
+        border-color: $accent-color;
+    }
+}

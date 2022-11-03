@@ -1,0 +1,58 @@
+.default-product_card {
+    $self: &;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 255px;
+    height: 363px;
+    background-color: $background-color-product_card;
+
+    &__image {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+        img {
+            width: 125px;
+        }
+    }
+
+    &__main-card-text {
+        color: $dark-color;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    &__item-card-price {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: 0.05em;
+    }
+
+    &__button-item-card {
+        background-color: $accent-color;
+        color: $default-color;
+        border: none;
+        width: 130px;
+        height: 35px;
+        padding: 0;
+    }
+}
+
+.test {
+    position: absolute;
+    left: 21.67%;
+    right: 77.18%;
+    top: 95.03%;
+    bottom: 4.42%;
+}

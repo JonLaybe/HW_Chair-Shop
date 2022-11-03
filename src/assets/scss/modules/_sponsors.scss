@@ -1,0 +1,20 @@
+.sponsors {
+    $self: &;
+    display: grid;
+    grid-template-columns: 278px 277px 278px 277px;
+    grid-template-rows: repeat(3, 119px);
+    gap: 1px;
+    margin: 99px 0 0 0;
+
+    &__image_sponsor {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $background-color-sponsors-item-card;
+        width: 100%;
+        img {
+            width: 149px;
+            height: 49px;
+        }
+    }
+}

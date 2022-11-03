@@ -1,0 +1,22 @@
+@import 'variables';
+
+@import 'reset';
+@import 'app';
+@import 'helpers/default-button';
+@import 'helpers/default-product_card';
+@import 'helpers/default-visitor-info';
+@import 'helpers/default-callback-block';
+
+
+@import 'modules/header-navigation';
+@import 'modules/header';
+@import 'modules/slider';
+@import 'modules/super-product';
+@import 'modules/special-products';
+@import 'modules/visitor-info';
+@import 'modules/sponsors';
+@import 'modules/recently-watched-products';
+@import 'modules/footer';
+@import 'modules/copyright';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Rubik+Glitch&display=swap');

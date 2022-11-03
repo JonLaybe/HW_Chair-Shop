@@ -1,0 +1,33 @@
+.default-visitor-info {
+    $self: &;
+    display: flex;
+    justify-content: space-between;
+    background-color: $background-color-visitor-info;
+    padding: 35px 40px;
+    width: 540px;
+    height: 212px;
+
+    .main-part {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        .title-text {
+            color: $main-text-color;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 21px;
+        }
+
+        .description-text {
+            color: $main-text-color;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+        }
+    }
+}

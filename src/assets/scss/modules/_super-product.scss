@@ -1,0 +1,44 @@
+.super-product {
+    $self: &;
+    .slider .slider__content {
+        &__main-text {
+            position: absolute;
+            color: $main-text-color;
+            width: 308px;
+            height: 49.83px;
+            bottom: 32px;
+            left: 122px;
+
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 56px;
+        }
+        &__down-text {
+            position: absolute;
+            color: $main-text-color;
+            width: 308px;
+            height: 39.64px;
+            left: 118px;
+            top: 25px;
+
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+        }
+        &__more-button {
+            position: absolute;
+            background: $background_red-color-button;
+            border: 2px solid $default-color;
+            color: $default-color;
+            width: 170px;
+            height: 45.3px;
+            left: 117px;
+            left: 117px;
+            top: 120px;
+        }
+    }
+}

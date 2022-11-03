@@ -1,0 +1,25 @@
+.special-products {
+    $self: &;
+    margin-top: 80px;
+
+    &__main-text {
+        align-self: flex-start;
+    }
+    &__goods {
+        &__main-text {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            margin: 0 0 38px 0;
+        }
+        &__cards {
+            display: flex;
+            margin: 38px 0 0 0;
+            .card-item:not(:last-child) {
+                margin: 0 30px 0 0;
+            }
+        }
+    }
+}
